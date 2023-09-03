@@ -1,0 +1,241 @@
+:root {
+    --cor-primaria: #191d26;
+    --cor-secundaria: #c89f4b;
+    --cor-terciaria: #FFFFFF;
+    --cor-box: #272727;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+   display: flex;
+    flex-direction: column;
+    /* width: 100%;
+    height: 100vh;
+    background-image: url(fundoteste.jpg);
+    background-size: cover; */
+    
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fundoteste.jpg);
+    background-size: cover;
+}
+
+.home .area {
+    margin-top: 2%;
+    padding: 5px;
+    margin-left: 10%;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--cor-primaria);
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 4px 4px 4px var(--cor-box);
+    
+}
+
+.area .carrossel {
+    margin-top: 2%;
+    width: 900px;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px var(--cor-box);
+}
+
+.carrossel .imagens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.imagens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.area .infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    height: 20%;
+    border-radius: 10px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria) ;
+    
+}
+
+.cartas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--cor-primaria);
+}
+
+.cartas .titulo {
+    font-family: var(--fonte-principal);
+    width: 100%;
+    height: 10%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    color:  var(--cor-secundaria);
+}
+
+.cartas .cardCarta {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.cardCarta .card {
+    width: 23%;
+    height: 90%;
+    border: 5px solid  var(--cor-secundaria);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .carta {
+    background-image: url(../img/testecarta.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta .nome {
+    width: 90%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 0px #5a5a5a,
+        -2px -2px 2px var(--cor-terciaria) ;
+    font-size: 18px;
+    background-color: var(--cor-terciaria) ;
+}
+
+.carta .peso{
+    width: 90%;
+    height: 5%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.carta .descricao {
+    width: 90%;
+    background-color:var(--cor-terciaria) ;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.descricao .cores {
+    width: 100%;
+    height: 85%;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.descricao .genNasc {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-weight: bold;
+}
+.starwiki {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fundoteste.jpg);
+    background-size: cover;
+}
+
+.starwiki .area{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 80px;
+    box-shadow: 4px 4px 4px var(--cor-box);
+        
+    
+}
+
+.area .tituloWiki {
+    font-family: var(--fonte-principal);
+    width: 100%;
+    height: 10%;
+    font-size: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:  var(--cor-secundaria);
+}
+
+.area .conteudoWiki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    height: 20%;
+    border-radius: 10px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria) ;
+    gap: 10px;
+    
+}
+
