@@ -4,7 +4,9 @@
 <p>Esse é o projeto que eu fiz para o desafio do worksjop da fabrica</p>
 
 <h1>
-   <video src="./HTML e CSS_ trabalhando com responsividade e publicação de projetos_ Aula 5 - Atividade 3 Para saber mais_ repositório e Readme _ Alura - Cursos online de tecnologia - Opera 2023-09-03 11-20-33.mp4"></video>
+  <img src="telaprincipal.png" alt="">
+        <img src="telacarta.png" alt="">
+        <img src="telastw.png" alt="">
 </h1>
 
 ## Sobre o projeto💻
