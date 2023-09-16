@@ -1,7 +1,7 @@
 # workshop-frontend-2023.2
 
 <h1> Desafio StarWars </h1>
-<p>Esse é o projeto que eu fiz para o desafio do worksjop da fabrica</p>
+<p>Esse é o projeto que eu fiz para o desafio do workshop da fabrica</p>
 
 <h1>
   <img src="telaprincipal.png" alt="">
